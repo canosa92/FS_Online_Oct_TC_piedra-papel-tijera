@@ -42,6 +42,7 @@ for( let i = 0 ; i < opciones.length; i++){
 
         const eleccionUsuario =document.getElementById('eleccionUsuario')
         eleccionUsuario.innerText= `El usuario ha elegido: ${jugadaUsuario}`
+        eleccionOrdenador.innnerText =`El`pc ha elegido: ${eleccionOrdenador}`
 
         puntosUsuario.innerHTML = `Puntos usuario: ${puntosUser}`
         puntosOrdendor.innerHTML  = `Puntos ordenador: ${puntosPC}`
